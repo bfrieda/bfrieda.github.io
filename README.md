@@ -1,4 +1,4 @@
-# title: Hosting a Resume on GitHub Pages
+# Hosting a Resume on GitHub Pages
 
 ## Purpose
 
