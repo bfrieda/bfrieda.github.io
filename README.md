@@ -6,7 +6,7 @@ This README is meant to explain how to host and format a resume on GitHub Pages.
 
 ## Prerequisites
 
-Before we start, there are a few things you'll want to prepare. The first is a Markdown editor to write your resume in, such as Visual Studio Code. You will also want a GitHub account, a working knowledge of Markdown syntax, and a static site generator such as Hugo.
+Before we start, there are a few things you'll want to prepare. The first is a Markdown editor to write your resume in, such as Visual Studio Code. You will also want a GitHub account, a working knowledge of Markdown syntax, and a static site generator such as Jekyll.
 
 ### Why Markdown?
 
@@ -19,7 +19,7 @@ Those traits make Markdown ideal because
 - It's easy to include links and pictures
 
 In fact, you can view an example of Markdown's simple syntax by clicking on this file and then on the **Raw Text** option.
-
+<!-- TO-DO: make this an image -->
 ### Why Visual Studio Code?
 
 Visual Studio Code, or VSCode, is a versatile IDE that uses a Distributed Version Control system along with GitHub. A Distributed Version Control system is a system that allows users to download a local copy of the project onto their machine, then commit changes locally.
@@ -44,8 +44,14 @@ If you don't have these prerequisites prepared, you can go to [Resources](#resou
 ## Instructions
 
 The below instructions are for MacOS. If you are working on a different operating system, check [Resources](#resources) to find a link to instructions on how to install the various software.
+<!-- TO-DO: complete this -->
+1. Install Jekyll
 
+Test
 
+2. Create a repository
+
+3. 
 
 ## Resources
 
@@ -55,7 +61,7 @@ Download Visual Studio Code [here](https://code.visualstudio.com/download).
 
 Buy Modern Technical Writing by Andrew Etter [here](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS).
 
-Download Hugo for other systems [here](https://gohugo.io/installation/).
+Install Jekyll for other systems [here](https://jekyllrb.com/docs/installation).
 
 ## Authors and Acknowledgements
 
