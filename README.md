@@ -2,33 +2,32 @@
 
 ## Purpose
 
-This README is meant to explain how to host and format a resume on GitHub Pages. It will also explain key principles from the book Modern Technical Writing by Andrew Etter, namely, lightweight markup languages, distributed version control, and static websites.
+This README is meant to explain how to host and format a resume on GitHub Pages. It will also explain key principles from the book Modern Technical Writing by Andrew Etter about lightweight markup languages, distributed version control, and static websites.
 
 ## Prerequisites
 
-Before we start, there are a few things you'll want to prepare. The first is a Markdown editor to write your resume in, such as Visual Studio Code. You will also want a GitHub account, and a working knowledge of Markdown syntax.
+Before we start, there are a few things you'll want to prepare. The first is a Markdown editor to write your resume in, such as Visual Studio Code. You will also want a GitHub account, a working knowledge of Markdown syntax, and a static site generator such as Hugo.
 
 ### Why Markdown?
 
-Markdown is a lightweight markup language, which means it has *lightweight* syntax. Markdown especially has the cleanest syntax and is one of the most widely used lightweight markup languages in the world.
+Markdown is a lightweight markup language, which means it has *lightweight* syntax, aka clean and simple syntax. Markdown especially is the cleanest and one of the most widely used lightweight markup languages in the world.
 
-Markdown is ideal because
+Those traits make Markdown ideal because
 - It's readable even when it isn't rendered
 - It's easy to learn
 - It doesn’t require specific tag knowledge like HTML
-- It's easy to include links and pictures with Markdown
-- It's easily exported to other file types such as PDF
+- It's easy to include links and pictures
 
 In fact, you can view an example of Markdown's simple syntax by clicking on this file and then on the **Raw Text** option.
 
-### What is Visual Studio Code?
+### Why Visual Studio Code?
 
 Visual Studio Code, or VSCode, is a versatile IDE that uses a Distributed Version Control system along with GitHub. A Distributed Version Control system is a system that allows users to download a local copy of the project onto their machine, then commit changes locally.
 
 Distributed Version Control systems
 - allow for better performance,
 - give you the ability to work offline, and
-- make multiple people working on the same file simple.
+- make it easy for multiple people to work on the same file.
 
 ### Static Websites
 
@@ -44,17 +43,19 @@ If you don't have these prerequisites prepared, you can go to [Resources](#resou
 
 ## Instructions
 
+The below instructions are for MacOS. If you are working on a different operating system, check [Resources](#resources) to find a link to instructions on how to install the various software.
+
 
 
 ## Resources
 
 Learn Markdown [here](https://www.markdowntutorial.com/).
 
-Buy Modern Technical Writing by Andrew Etter [here](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS).
-
 Download Visual Studio Code [here](https://code.visualstudio.com/download).
 
-Download ?
+Buy Modern Technical Writing by Andrew Etter [here](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS).
+
+Download Hugo for other systems [here](https://gohugo.io/installation/).
 
 ## Authors and Acknowledgements
 
@@ -66,12 +67,17 @@ Thank you to my group members Hamdi Elzard, Dirk Page, and Dane Wanke for their 
 
 **Why would I use Markdown over a WYSIWYG editor such as Google Docs?**
 
+Some reasons to use Markdown over another text editor include:
+
 - It can be used for anything
 - It’s portable (you can move to any platform easily)
 - It’s platform independent
 - It’s future proof (even if your application stops working, you can still read Markdown)
 - It’s used everywhere and many things support it
+- It's easily exported to other file types such as PDF
 
-**Why are my changes not showing up?**
+These are also reasons why people use Markdown outside of code related projects, such as for note-taking and
 
-It can take up to 10 minutes for changes in your site to publish.
+**Why are my changes not showing up after a commit?**
+
+It can take up to 10 minutes for changes in your site to publish. If it takes longer than an hour, there may be something wrong. Check [About Jekyll build errors for GitHub Pages sites](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-jekyll-build-errors-for-github-pages-sites) for more information.
