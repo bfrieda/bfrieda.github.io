@@ -23,10 +23,10 @@ email: bif@myumanitoba.ca
 description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "bfrieda.github.io"
-github_username:  bfrieda
+github_username: bfrieda
 
 # Build settings
-theme: minima
+remote-theme: poole/hyde
 plugins:
   - jekyll-feed
 
