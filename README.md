@@ -80,9 +80,15 @@ Navigate to the directory you want your files to be in using `cd` commands. Then
 
 > Note: If you've already created a repository and want to add Jekyll files to it, navigate inside of that directory and use the command 'jekyll new . --force'.
 
-2. Add your resume to the site.
+2. Add your resume to the site
 
 Open up your new project in Visual Studio Code. Then copy paste your Markdown resume into your **index.markdown** or **index.md** file.
+
+3. Test your site
+
+You can test the local version of your site with the command `bundle exec jekyll serve`.
+
+> What's the difference between `bundle exec jekyll serve` and `jekyll serve`? `bundle exec` checks for dependencies.
 
 ### C. Creating a GitHub repository
 
