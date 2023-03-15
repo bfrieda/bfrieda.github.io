@@ -55,13 +55,13 @@ Test
 
 ## Resources
 
-Learn Markdown [here](https://www.markdowntutorial.com/).
+- Learn Markdown [here](https://www.markdowntutorial.com/).
 
-Download Visual Studio Code [here](https://code.visualstudio.com/download).
+- Download Visual Studio Code [here](https://code.visualstudio.com/download).
 
-Buy Modern Technical Writing by Andrew Etter [here](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS).
+- Buy Modern Technical Writing by Andrew Etter [here](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS).
 
-Install Jekyll for other systems [here](https://jekyllrb.com/docs/installation).
+- Install Jekyll for other systems [here](https://jekyllrb.com/docs/installation).
 
 ## Authors and Acknowledgements
 
@@ -71,7 +71,7 @@ Thank you to my group members Hamdi Elzard, Dirk Page, and Dane Wanke for their 
 
 ## FAQ
 
-**Why would I use Markdown over a WYSIWYG editor such as Google Docs?**
+### **1. Why would I use Markdown over a WYSIWYG editor such as Google Docs?**
 
 Some reasons to use Markdown over another text editor include:
 
@@ -84,6 +84,6 @@ Some reasons to use Markdown over another text editor include:
 
 These are also reasons why people use Markdown outside of code related projects, such as for note-taking and
 
-**Why are my changes not showing up after a commit?**
+### **2. Why are my changes not showing up after a commit?**
 
 It can take up to 10 minutes for changes in your site to publish. If it takes longer than an hour, there may be something wrong. Check [About Jekyll build errors for GitHub Pages sites](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-jekyll-build-errors-for-github-pages-sites) for more information.
